@@ -61,7 +61,7 @@ export const userDtlTable = sqliteTable('user_dtl', {
 export const diskonTable = sqliteTable('diskon', {
   id: text('id').notNull().primaryKey(),
   nama: text('nama').notNull(),
-  jumlah: text('jumlah').notNull(),
+  jumlah: integer('jumlah').notNull(),
   expireAt: text('expire_at').notNull(),
   createdAt: text('created_at').default(sql`(CURRENT_TIMESTAMP)`),
   updatedAt: text('updated_at')
@@ -107,3 +107,9 @@ export const productRelation = relations(userProductTable, ({ one }) => ({
     references: [productTable.id]
   })
 }));
+
+// Type Exports:
+
+export type selectDiskon = typeof diskonTable.$inferSelect;
+
+export type selectUser = typeof userTable.$inferSelect;

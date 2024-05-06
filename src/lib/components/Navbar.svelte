@@ -6,6 +6,6 @@
   <div class="container flex h-full items-center justify-between">
     <div class="text-2xl font-bold">Logo</div>
     <nav>navigation</nav>
-    <Button>Sign Up</Button>
+    <Button href="/login">Sign Up</Button>
   </div>
 </div>
