@@ -3,6 +3,6 @@
   import '../app.pcss';
 </script>
 
-<Toaster richColors />
+<Toaster richColors closeButton={true} />
 
 <slot />
