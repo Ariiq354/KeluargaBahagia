@@ -2,7 +2,7 @@
   import { Facebook, Instagram, Mail, Phone, Youtube } from 'lucide-svelte';
 </script>
 
-<div class="w-full bg-white">
+<div class="w-full bg-eastern-blue-100">
   <div class="container flex items-center justify-between p-12">
     <div class="flex flex-shrink-0 flex-col items-center gap-4">
       <img src="/logo.png" alt="logo" class="w-24" />

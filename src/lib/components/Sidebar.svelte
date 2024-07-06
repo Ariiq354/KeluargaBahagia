@@ -1,20 +1,7 @@
 <script lang="ts">
-  import {
-    Book,
-    BookOpen,
-    ClipboardPlus,
-    DoorClosed,
-    FileQuestion,
-    GraduationCap,
-    LayoutDashboard,
-    NotebookTabs,
-    Percent,
-    ScanEye,
-    TicketPercent,
-    Users
-  } from 'lucide-svelte';
   import { page } from '$app/stores';
   import { cn } from '$lib/utils';
+  import { LayoutDashboard, TicketPercent, Users } from 'lucide-svelte';
 
   export let role: number;
 </script>
@@ -37,8 +24,9 @@
             href="/dashboard/admin"
             class={cn(
               $page.url.pathname == '/dashboard/admin'
-                ? 'flex items-center gap-3 rounded-lg bg-primary/20 px-3 py-2 text-foreground transition-all duration-200 hover:text-foreground'
-                : 'flex items-center gap-3 rounded-lg px-3 py-2 text-gray-500 transition-all duration-200 hover:text-foreground'
+                ? 'bg-primary/20 text-foreground'
+                : 'text-gray-500',
+              'flex items-center gap-3 rounded-lg px-3 py-2 transition-all duration-200 hover:text-foreground'
             )}
           >
             <LayoutDashboard size="20" />
@@ -47,9 +35,10 @@
           <a
             href="/dashboard/admin/diskon"
             class={cn(
-              $page.url.pathname == '/dashboard/admin/diskon'
-                ? 'flex items-center gap-3 rounded-lg bg-primary/20 px-3 py-2 text-foreground transition-all duration-200 hover:text-foreground'
-                : 'flex items-center gap-3 rounded-lg px-3 py-2 text-gray-500 transition-all duration-200 hover:text-foreground'
+              $page.url.pathname == '/dashboard/admin'
+                ? 'bg-primary/20 text-foreground'
+                : 'text-gray-500',
+              'flex items-center gap-3 rounded-lg px-3 py-2 transition-all duration-200 hover:text-foreground'
             )}
           >
             <TicketPercent size="20" />
@@ -58,9 +47,10 @@
           <a
             href="/dashboard/admin/user"
             class={cn(
-              $page.url.pathname == '/dashboard/admin/user'
-                ? 'flex items-center gap-3 rounded-lg bg-primary/20 px-3 py-2 text-foreground transition-all duration-200 hover:text-foreground'
-                : 'flex items-center gap-3 rounded-lg px-3 py-2 text-gray-500 transition-all duration-200 hover:text-foreground'
+              $page.url.pathname == '/dashboard/admin'
+                ? 'bg-primary/20 text-foreground'
+                : 'text-gray-500',
+              'flex items-center gap-3 rounded-lg px-3 py-2 transition-all duration-200 hover:text-foreground'
             )}
           >
             <Users size="20" />
@@ -77,9 +67,10 @@
         <a
           href="/dashboard"
           class={cn(
-            $page.url.pathname == '/dashboard'
-              ? 'flex items-center gap-3 rounded-lg bg-primary/20 px-3 py-2 text-foreground transition-all duration-200 hover:text-foreground'
-              : 'flex items-center gap-3 rounded-lg px-3 py-2 text-gray-500 transition-all duration-200 hover:text-foreground'
+            $page.url.pathname == '/dashboard/admin'
+              ? 'bg-primary/20 text-foreground'
+              : 'text-gray-500',
+            'flex items-center gap-3 rounded-lg px-3 py-2 transition-all duration-200 hover:text-foreground'
           )}
         >
           <LayoutDashboard size="20" />

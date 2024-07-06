@@ -2,6 +2,7 @@ import type { Config } from 'drizzle-kit';
 export default {
   schema: './src/lib/server/schema.ts',
   driver: 'turso',
+  dialect: 'sqlite',
   out: './drizzle',
   dbCredentials: {
     url: process.env.DATABASE_URL ?? '',
