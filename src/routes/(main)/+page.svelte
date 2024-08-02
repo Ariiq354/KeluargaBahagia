@@ -48,7 +48,7 @@
 <div class="w-full bg-white py-24">
   <div class="container flex h-full flex-col items-center justify-center gap-12 py-12">
     <h1 class="mb-12 text-4xl font-bold">Kami Menyediakan Beberapa Jasa</h1>
-    <div class="grid grid-cols-4 gap-12">
+    <div class="grid grid-cols-2 gap-12">
       <div class="rounded-lg bg-eastern-blue-100 p-12">
         <div class="mb-6 flex items-center justify-center text-eastern-blue-500">
           <svg
@@ -89,7 +89,7 @@
         <h1 class="mb-2 text-center text-2xl font-bold">Jodoh</h1>
         <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, a.</p>
       </div>
-      <div class="flex flex-col justify-between rounded-lg bg-eastern-blue-100 p-12">
+      <!-- <div class="flex flex-col justify-between rounded-lg bg-eastern-blue-100 p-12">
         <div class="mb-6 flex items-center justify-center text-eastern-blue-500">
           <svg
             width="135.46179mm"
@@ -130,7 +130,7 @@
         </div>
         <h1 class="mb-2 text-center text-2xl font-bold">Investasi</h1>
         <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, a.</p>
-      </div>
+      </div> -->
     </div>
   </div>
 </div>
