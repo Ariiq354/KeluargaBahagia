@@ -4,5 +4,7 @@
 </script>
 
 <Navbar />
-<slot />
+<div class="grainy">
+  <slot />
+</div>
 <Footer />

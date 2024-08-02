@@ -7,7 +7,7 @@
 <div
   class="flex h-96 w-full flex-col items-center justify-center gap-4 bg-eastern-blue-500 px-96 text-center text-white"
 >
-  <h1 class="text-5xl font-bold">Contact Us</h1>
+  <h1 class="text-5xl font-bold">Kontak Kami</h1>
   <p class="text-xl leading-9">
     Jika Anda memiliki pertanyaan atau mengalami berbagai kendala perihal penggunaan di website
     Udivise, silahkan hubungi kami melalui pilihan dibawah ini.
@@ -29,8 +29,10 @@
     <Button>WhatsApp</Button>
   </div>
 </div>
-<div class="container my-12 flex flex-col gap-4 rounded-lg bg-eastern-blue-100 p-12 shadow-xl">
-  <h1 class="text-center text-4xl font-semibold">Email Us</h1>
+<div
+  class="container my-12 flex max-w-[1000px] flex-col gap-4 rounded-lg bg-eastern-blue-100 p-12 shadow-xl"
+>
+  <h1 class="text-center text-4xl font-semibold">Email</h1>
   <p class="text-center text-lg">
     Anda bisa menghubungi kami melalui layanan email melalui kolom dibawah ini.
   </p>

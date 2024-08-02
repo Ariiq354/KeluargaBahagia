@@ -9,17 +9,19 @@
       KELUARGA BAHAGIA
     </div>
     <nav class="flex gap-12 text-lg font-semibold">
-      <a href="/" class="transition-all duration-300 hover:-translate-y-1 hover:opacity-70">Home</a>
+      <a href="/" class="transition-all duration-300 hover:-translate-y-1 hover:opacity-70"
+        >Beranda</a
+      >
       <a href="/about" class="transition-all duration-300 hover:-translate-y-1 hover:opacity-70">
-        About
+        Tentang Kami
       </a>
       <a href="/product" class="transition-all duration-300 hover:-translate-y-1 hover:opacity-70">
-        Product
+        Produk
       </a>
       <a href="/contact" class="transition-all duration-300 hover:-translate-y-1 hover:opacity-70">
-        Contact
+        Kontak
       </a>
     </nav>
-    <Button href="/login" class="text-white">Sign Up</Button>
+    <Button href="/login" class="text-white">Daftar</Button>
   </div>
 </div>
