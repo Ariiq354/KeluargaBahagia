@@ -18,7 +18,7 @@
         <h1 class="border-b-2 border-b-black text-xl font-bold">Info Kontak</h1>
         <ul class="flex flex-col gap-2">
           <li class="flex w-44 items-center gap-2"><Phone size={20} /> +62 857 7204 8120</li>
-          <li class="flex items-center gap-2"><Mail size={20} /> lorem@ipsum.com</li>
+          <li class="flex items-center gap-2"><Mail size={20} /> keluargabahagianews@gmail.com</li>
         </ul>
       </div>
 
