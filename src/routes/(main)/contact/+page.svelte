@@ -26,7 +26,7 @@
       <h1 class="text-lg font-semibold">WhatsApp</h1>
       <p>Whatsapp Hubungi admin Whatsapp kami melalui tombol dibawah ini.</p>
     </div>
-    <Button>WhatsApp</Button>
+    <Button href="https://wa.me/6285772048120" target="_blank">WhatsApp</Button>
   </div>
 </div>
 <div

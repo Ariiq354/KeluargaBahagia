@@ -170,14 +170,14 @@
     <h1 class="my-4 w-full border-b-2 py-4 text-center text-4xl font-semibold">Daftar Event</h1>
     <Carousel.Root class="w-full">
       <Carousel.Content>
-        {#each Array(10) as _, i (i)}
-          <Carousel.Item class="basis-1/5">
+        {#each Array(4) as _, i (i)}
+          <Carousel.Item class="basis-1/4">
             <Card.Root class="rounded-lg bg-eastern-blue-100 text-black">
               <Card.Content class="-ml-0 flex flex-col items-center justify-center gap-4 p-4">
                 <div
                   class="flex aspect-square h-auto w-full items-center justify-center rounded-lg bg-primary p-4"
                 >
-                  <CameraOff />
+                  <img src={`/produk${i + 1}.jpg`} alt="" />
                 </div>
                 <h1 class=" text-lg font-bold">lorem ipsum</h1>
                 <div class="flex w-full justify-between gap-4">
@@ -202,13 +202,13 @@
   </div>
 </div>
 
-<div class="w-full bg-eastern-blue-700 px-12 py-12 text-eastern-blue-100">
+<!-- <div class="w-full bg-eastern-blue-700 px-12 py-12 text-eastern-blue-100">
   <p class="container w-2/3 text-center text-2xl leading-loose">
     "Menikah adalah perjalanan yang indah, namun membutuhkan persiapan yang matang. Bangunlah
     fondasi pernikahan yang kokoh dan bahagia. Jangan ragu untuk mendaftar dan persiapkan diri Anda
     untuk menyambut masa depan yang indah bersama pasangan tercinta."
   </p>
-</div>
+</div> -->
 
 <style>
   .gradient {
